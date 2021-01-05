@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       document.getElementById('tasks').appendChild(newListItem);
       event.preventDefault();
-      event.target.reset();
+      //event.target.reset();
     }
 
   form.addEventListener('submit',createTask);
