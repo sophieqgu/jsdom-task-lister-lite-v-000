@@ -4,7 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function createTask(event) {
       const newListItem = document.createElement('li');
-      newListItem.textContent = form.querySelector('new-task-description').value
+      newListItem.textContent = form.querySelector('new-task-description').value;
+      
   }
 
   form.addEventListener('submit', createTask);
