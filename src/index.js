@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
       newListItem.textContent = form.querySelector('new-task-description').value;
       document.getElementByID('tasks').appendChild(newListItem);
       event.preventDefault();
+      event.target.reset();
   }
 
   form.addEventListener('submit', createTask);
